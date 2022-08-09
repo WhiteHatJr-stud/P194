@@ -1,0 +1,125 @@
+
+C:\Users\hp>nslookup www.facebook.com
+Server:  
+Address:  2405:201:1000:817a::c0a8:1d01
+
+Non-authoritative answer:
+Name:    star-mini.c10r.facebook.com
+Addresses:  2a03:2880:f16e:181:face:b00c:0:25de
+          157.240.237.35
+Aliases:  www.facebook.com
+
+
+C:\Users\hp>nslookup www.github.com
+Server:  
+Address:  2405:201:1000:817a::c0a8:1d01
+
+Non-authoritative answer:
+Name:    github.com
+Address:  20.207.73.82
+Aliases:  www.github.com
+
+
+C:\Users\hp>nslookup www.google.com
+Server:  
+Address:  2405:201:1000:817a::c0a8:1d01
+
+Non-authoritative answer:
+Name:    www.google.com
+Addresses:  2404:6800:4009:81f::2004
+          142.250.182.228
+
+
+C:\Users\hp>ipconfig/all
+
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : 
+   Primary Dns Suffix  . . . . . . . :
+   Node Type . . . . . . . . . . . . : 
+   IP Routing Enabled. . . . . . . . : 
+   WINS Proxy Enabled. . . . . . . . : 
+
+Ethernet adapter Ethernet:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Realtek Family Controller
+   Physical Address. . . . . . . . . : 
+   DHCP Enabled. . . . . . . . . . . : 
+   Autoconfiguration Enabled . . . . : 
+
+Wireless LAN adapter Local Area Connection* 9:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : 
+   Physical Address. . . . . . . . . : 
+   DHCP Enabled. . . . . . . . . . . : 
+   Autoconfiguration Enabled . . . . : 
+
+Wireless LAN adapter Local Area Connection* 10:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : 
+   Physical Address. . . . . . . . . : 
+   DHCP Enabled. . . . . . . . . . . : 
+   Autoconfiguration Enabled . . . . : 
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Realtek  WiFi 6 802.11ax PCIe Adapter
+   Physical Address. . . . . . . . . : 
+   DHCP Enabled. . . . . . . . . . . : 
+   Autoconfiguration Enabled . . . . : 
+   IPv6 Address. . . . . . . . . . . : 
+   Temporary IPv6 Address. . . . . . : 2405:201:1000:817a:7434:d8a2:83cb:d046(Preferred)
+   Link-local IPv6 Address . . . . . : 
+   IPv4 Address. . . . . . . . . . . : 
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Lease Obtained. . . . . . . . . . : 09 August 2022 6.08.39 PM
+   Lease Expires . . . . . . . . . . : 09 August 2022 7.38.39 PM
+   Default Gateway . . . . . . . . . : 
+
+   DHCP Server . . . . . . . . . . . : 
+   DHCPv6 IAID . . . . . . . . . . . : 
+   DHCPv6 Client DUID. . . . . . . . : 
+   DNS Servers . . . . . . . . . . . : 
+                                       
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+C:\Users\hp>ping 157.240.237.35
+
+Pinging 157.240.237.35 with 32 bytes of data:
+Reply from 157.240.237.35: bytes=32 time=25ms TTL=51
+Reply from 157.240.237.35: bytes=32 time=26ms TTL=51
+Reply from 157.240.237.35: bytes=32 time=27ms TTL=51
+Reply from 157.240.237.35: bytes=32 time=26ms TTL=51
+
+Ping statistics for 157.240.237.35:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 25ms, Maximum = 27ms, Average = 26ms
+
+C:\Users\hp>ping 20.207.73.82
+
+Pinging 20.207.73.82 with 32 bytes of data:
+Request timed out.
+Request timed out.
+
+Ping statistics for 20.207.73.82:
+    Packets: Sent = 2, Received = 0, Lost = 2 (100% loss),
+Control-C
+^C
+C:\Users\hp>ping 20.207.73.82
+
+Pinging 20.207.73.82 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 20.207.73.82:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+Control-C
+^C
+C:\Users\hp>
